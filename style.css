@@ -109,9 +109,18 @@ footer .social-media-links .link-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #fff;
 }
 
-footer .social-media-links .link-container img {
+footer .social-media-links .link-container:hover {
+  border: 1px solid #e882e8;
+}
+
+footer .social-media-links .link-container:hover svg {
+  color: #e882e8;
+}
+
+footer .social-media-links .link-container svg {
   height: 0.875rem;
 }
 
@@ -165,7 +174,7 @@ footer .social-media-links .link-container img {
     width: 2.5rem;
     height: 2.5rem;
   }
-  footer .social-media-links .link-container img {
+  footer .social-media-links .link-container svg {
     width: 1.25rem;
     height: 1.25rem;
   }
